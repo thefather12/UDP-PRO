@@ -1,37 +1,35 @@
-## UDP Custom - Installer and Manager
-#### * Version ⇢ 2.5-Lite
+## UDP personalizado: instalador y administrador
+#### * Versión ⇢ 2.5-Lite
 ---
-UDP (User Datagram Protocol) is a network communication protocol that operates on top of IP (Internet Protocol). It is a simpler protocol compared to TCP (Transmission Control Protocol), as it aims for speed rather than reliability.
+UDP (Protocolo de datagramas de usuario) es un protocolo de comunicación de red que opera sobre IP (Protocolo de Internet). Es un protocolo más simple en comparación con TCP (Protocolo de control de transmisión), ya que apunta a la velocidad más que a la confiabilidad.
 
 
 ---
-<center><img src="https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager/main/bin/banner.jpg" alt="banner" width="400"/></center>
+<center><img src="https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager/main/bin/banner.jpg" alt="banner" width="400"/> </centro>
 
-# Supported OS
-- ubuntu 20.04 [x86_64] ✅ _(recommended)_
-- [arm] ❌
+# SO compatible
+- ubuntu 20.04 [x86_64] ✅ _(recomendado)_
+- [brazo] ❌
 
-## Install
+## Instalar
 ```
 sudo -s
 ``` 
 ```
-git clone https://github.com/thefather12/UDP-PRO.git && cd Udpcustom && chmod +x install.sh && ./install.sh
-
 wget https://raw.githubusercontent.com/thefather12/UDP-PRO/main/install.sh; chmod +x install.sh; ./install.sh
 ```
 
 
-## Manually
+## Manualmente
 
-## Note: 
- * Use optional port exclude when port udp between 1-65535 already use by other udp tunnel, like badvpn, ovpn udp and other.
- * Edit path config /root/udp/config.json, after changing it then reboot
- * Optional port exclude separated by coma, ex. 53,5300
+## Nota:
+ * Utilice la exclusión de puerto opcional cuando el puerto udp entre 1-65535 ya lo utilice otro túnel udp, como badvpn, ovpn udp y otros.
+ * Edite la configuración de ruta /root/udp/config.json, después de cambiarla, reinicie
+ * Puerto opcional excluido separado por coma, ej. 53,5300
 
 ## telegram
- > [cybertec](https://t.me/cybertechug)
+ > [cibertec](https://t.me/THEFATHER12)
 
 #
-  > _made from pieces with ❤️_
+  > _hecho de piezas con ❤️_
 #
