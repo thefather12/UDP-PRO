@@ -28,7 +28,7 @@ wget https://raw.githubusercontent.com/thefather12/UDP-PRO/main/install.sh; chmo
  * Puerto opcional excluido separado por coma, ej. 53,5300
 
 ## telegram
- > [cibertec](https://t.me/THEFATHER12)
+ > [THEFATHER12](https://t.me/THEFATHER12)
 
 #
   > _hecho de piezas con ❤️_
