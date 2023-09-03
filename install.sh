@@ -128,9 +128,10 @@ else
   echo ""
   echo ""
   print_center -ama "${a103:-setting up, please wait...}"
-  sleep 3
+  sleep 6
   title "${a102:-Installation Successful}"
-  print_center -ama "${a103:-  To show menu type: \nUDP\n}"
-  msg -bar
-  time_reboot 5
+  print_center -ama "${a103:-  To show menu type: \nudp\n}"
+  echo -ne "\n\033[1;31mENTER \033[1;33mpara entrar al \033[1;32mMENU!\033[0m"; read
+   udp
+  
 fi
