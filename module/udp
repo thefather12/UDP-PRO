@@ -1032,16 +1032,12 @@ menu_main() {
   10)
     uninstall_udp_manager
     ;;
-   0)
-		clear
-		 menu
-			;;
-			*)
-			echo -e "\033[1;31mOpcion invalida !\033[0m"
-			sleep 2
-			;;
-			esac
-		done
-	}
-	fun_conexao
+  0)
+    exit
+    ;;
+  esac
 }
+
+while [[ $? -eq 0 ]]; do
+  menu_main
+done
