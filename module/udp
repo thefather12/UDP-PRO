@@ -1033,7 +1033,7 @@ menu_main() {
     uninstall_udp_manager
     ;;
   0)
-    exit
+    menu
     ;;
   esac
 }
